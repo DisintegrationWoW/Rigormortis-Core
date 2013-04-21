@@ -1,4 +1,3 @@
-
 # Lineendings
 *.sln        eol=crlf
 *.vcproj     eol=crlf
