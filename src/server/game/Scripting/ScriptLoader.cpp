@@ -1274,6 +1274,10 @@ void AddBattlegroundScripts()
 /* This is where custom scripts' loading functions should be declared. */
 
 void AddSC_NPC_Transmogrify();
+void AddSC_TeLe_gossip_codebox();
+void AddSC_World_Chat();
+void AddSC_npc_info();
+void AddSC_buff_npc();
 #endif
 
 void AddCustomScripts()
@@ -1282,5 +1286,9 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
 
     AddSC_NPC_Transmogrify();
+	AddSC_TeLe_gossip_codebox();
+	AddSC_World_Chat();
+	AddSC_npc_info();
+	AddSC_buff_npc();
 #endif
 }

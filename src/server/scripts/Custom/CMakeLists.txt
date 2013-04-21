@@ -12,6 +12,10 @@ set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
 	Custom/Transmogrification.h
 	Custom/Transmogrification.cpp
+	Custom/TeLe_gossip_codebox.cpp
+	Custom/npc_info.cpp
+	Custom/buff_npc.cpp
+	Custom/World_Chat.cpp
 )
 
 message("  -> Prepared: Custom")
